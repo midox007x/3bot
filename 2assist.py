@@ -23,20 +23,20 @@ images = json.load(imagesOpen)
 stickers = json.load(stickersOpen)
 #===========
 print ("Memuat Akun Anda")
-k1 = LINE() #Login Via QR
-#k1 = LINE("EzkRV65NB4up9X0TA5ze.Ht4W4Go6ssdWwuiCLTBe3G.yewJ01Rf3dp5E4dfMMo5IC2hwKkh2/OnaIXKxw5rBSE=")
+#k1 = LINE() #Login Via QR
+k1 = LINE("Ezlr0pxTvvtHkEkamjHf.9ocyg1talQ+9eEucqY0ihW.jbh6JwmzJt4VusNhYuaecGk1/V1SV1emyOqy45+0Krc=")
 k1.log("\nToken Anda => " + str(k1.authToken))
 print ("Sukses Login Akun BOT 1")
 #===========
 print ("Memuat Akun Assist 1")
-k2 = LINE() #Login Via QR
-#k2 = LINE("EzXiGqOeXj1tRnH7C0m6.45y/Ci8UpCOzp52/AJRqnG.p7d+xYm9ZprYJ6tFoVZ1oA430sOUw4arX7HgjkaZNs0=")
+#k2 = LINE() #Login Via QR
+k2 = LINE("EzbOBKT0Obs4KwMyyd25.H3QVRcxrf43MfR2E0Grvrq.JhqyASmKbj80cCm47A879AiaejWK4y9+xWzsQ4ebIXw=")
 k2.log("\nToken Assist 1 => " + str(k2.authToken))
 print ("Sukses Login Akun Assist 1")
 #================
 print ("Memuat Akun Assist 2")
-k3 = LINE() #Login Via QR
-#k3 = LINE("Ezf6yAZELxRd4sYEW3d7.RdukmrGz0bUOwjU0xcNZfW.ubvFeItRZaGhMAkgaN+Mj+B0x3ALWaynCOItjaZdpck=")
+#k3 = LINE() #Login Via QR
+k3 = LINE("EzOJOFT6eXVONwl8B3xc.Ab1BijZe40SubzicZIooJa.Qv7tzgN1C5qPvhCZtMT6GpZ8ENLqL3RjQUWwA1Bwe+k=")
 k3.log("\nToken Assist 2 => " + str(k3.authToken))
 print ("Sukses Login Akun Assist 2")
 #===========
