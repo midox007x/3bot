@@ -23,20 +23,20 @@ images = json.load(imagesOpen)
 stickers = json.load(stickersOpen)
 #===========
 print ("Memuat Akun Anda")
-#k1 = LINE() #Login Via QR
-k1 = LINE("EzNORonyzMJaP0GDqBge.Ht4W4Go6ssdWwuiCLTBe3G.cbhMjHK6B4Ltdid0nO4qTsCQ2OuHI/jizixnW7IXink=")
+k1 = LINE() #Login Via QR
+#k1 = LINE("EzkRV65NB4up9X0TA5ze.Ht4W4Go6ssdWwuiCLTBe3G.yewJ01Rf3dp5E4dfMMo5IC2hwKkh2/OnaIXKxw5rBSE=")
 k1.log("\nToken Anda => " + str(k1.authToken))
 print ("Sukses Login Akun BOT 1")
 #===========
 print ("Memuat Akun Assist 1")
-#k2 = LINE() #Login Via QR
-k2 = LINE("EzDty9KUs0wUMr0QJBh6.45y/Ci8UpCOzp52/AJRqnG.jI2PbRFUc5e4ovkaKX8wSzIj/lSafplIlinf4+QlSys=")
+k2 = LINE() #Login Via QR
+#k2 = LINE("EzXiGqOeXj1tRnH7C0m6.45y/Ci8UpCOzp52/AJRqnG.p7d+xYm9ZprYJ6tFoVZ1oA430sOUw4arX7HgjkaZNs0=")
 k2.log("\nToken Assist 1 => " + str(k2.authToken))
 print ("Sukses Login Akun Assist 1")
 #================
 print ("Memuat Akun Assist 2")
-#k3 = LINE() #Login Via QR
-k3 = LINE("EzFvmpRnWucJfGbeAIT7.RdukmrGz0bUOwjU0xcNZfW.QMWcdKa/RfOXKwTcQWu2v6WYjKPZzbi7VGfByZRP/9o=")
+k3 = LINE() #Login Via QR
+#k3 = LINE("Ezf6yAZELxRd4sYEW3d7.RdukmrGz0bUOwjU0xcNZfW.ubvFeItRZaGhMAkgaN+Mj+B0x3ALWaynCOItjaZdpck=")
 k3.log("\nToken Assist 2 => " + str(k3.authToken))
 print ("Sukses Login Akun Assist 2")
 #===========
@@ -137,7 +137,7 @@ k3MID = k3.getProfile().mid
 KAC = [k2,k3]
 Bots = [k1MID,k2MID,k3MID]
 
-admin=["u853e30e203ba4920f059421c96d6c4de"], #Ganti Dengan MID Kalian
+admin=["uf4e0981b54c02eaffd11e502432d081f"], #Ganti Dengan MID Kalian
 #================
 msg_dict = {}
 cctv = {
@@ -676,8 +676,8 @@ def bot(op):
                             elapsed_time = time.time() - start
                             k1.sendMessage(to,format(str(elapsed_time)))
                             #k1.sendMessage(to,format(str(elapsed_time)))
-                            #k2.sendMessage(to,format(str(elapsed_time)))
-                            #k3.sendMessage(to,format(str(elapsed_time)))
+                            k2.sendMessage(to,format(str(elapsed_time)))
+                            k3.sendMessage(to,format(str(elapsed_time)))
                             #k4.sendMessage(to,format(str(elapsed_time)))
                             #k5.sendMessage(to,format(str(elapsed_time)))
                             #k6.sendMessage(to,format(str(elapsed_time)))
